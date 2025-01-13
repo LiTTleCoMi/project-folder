@@ -2,12 +2,49 @@
     padding: 0;
     margin: 0;
 }
+body {
+    background-color: #555;
+}
 .nav {
+    padding-top: 10px;
     background-color: #eda809;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    border-bottom: 4px solid #DDD;
+}
+.nav-logo {
+    margin-left: 5vw;
 }
 .nav-links {
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 5vw;
+}
+.nav-links > a {
+    text-decoration: none;
+    font-size: 22px;
+    color: #000;
+}
+.front-page-image {
+    height: 600px;
+    background-image: url("../images/hero-image.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.front-page-text {
+    font-size: 43px;
+    font-weight: bolder;
+    background-color: #DDD;
+    display: inline-block;
+    height: fit-content;
+    width: fit-content;
+    padding: 10px 20px;
+    margin-bottom: 100px;
+}
+.sections-template {
     
 }
