@@ -45,6 +45,20 @@ body {
     padding: 10px 20px;
     margin-bottom: 100px;
 }
-.sections-template {
-    
+.sections-container {
+    background-color: #DDD;
+    height: 300px;
+    padding: 3vw 7vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.sections-container > h2 {
+    font-size: 40px;
+}
+.sections-container > p {
+    font-size: 25px;
+}
+.sections-images-container {
+    display: flex;
 }
