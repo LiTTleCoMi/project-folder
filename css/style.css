@@ -7,7 +7,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 .nav {
-    padding-top: 10px;
+    height: 105px;
     background-color: #eda809;
     display: flex;
     align-items: center;
@@ -28,6 +28,8 @@ body {
     font-size: 22px;
     color: #000;
 }
+
+
 .front-page-image {
     height: 600px;
     background-image: url("../images/hero-image.jpg");
@@ -46,6 +48,8 @@ body {
     padding: 10px 20px;
     margin-bottom: 100px;
 }
+
+
 .sections-container {
     background-color: #fff;
     padding: 3vw 7vw;
@@ -79,6 +83,31 @@ body {
     font-weight: 600;
     background-color: #fff;
 }
-.odd {
+.sections-container:nth-child(even) {
     background-color: #CCCCD5;
+}
+
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 105px;
+    background-color: #eda809;
+}
+footer > * {
+    margin: 0 7vw;
+    font-size: 18px;
+}
+footer ul {
+    display: flex;
+    list-style-type: none;
+}
+footer ul li{
+    margin: 0 10px;
+}
+footer ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: inherit;
 }
