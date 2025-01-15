@@ -32,11 +32,17 @@ body {
 
 .front-page-image {
     height: 600px;
-    background-image: url("../images/hero-image.jpg");
     background-size: cover;
+    background-position: center;
     display: flex;
     justify-content: center;
     align-items: end;
+}
+#index-image {
+    background-image: url("../images/hero-image.jpg");
+}
+#recipe-image {
+    background-image: url("../images/burger.jpg");
 }
 .front-page-text {
     font-size: 43px;
