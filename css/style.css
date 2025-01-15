@@ -4,6 +4,7 @@
 }
 body {
     background-color: #555;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .nav {
     padding-top: 10px;
@@ -46,19 +47,38 @@ body {
     margin-bottom: 100px;
 }
 .sections-container {
-    background-color: #DDD;
-    height: 300px;
+    background-color: #fff;
     padding: 3vw 7vw;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 .sections-container > h2 {
-    font-size: 40px;
+    font-size: 50px;
 }
 .sections-container > p {
     font-size: 25px;
+    margin-top: 50px;
 }
 .sections-images-container {
     display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.sections-images-container > div {
+    display: flex;
+    flex-direction: column;
+
+}
+.sections-images-container p {
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #fff;
+}
+.odd {
+    background-color: #CCCCD5;
 }
