@@ -142,3 +142,53 @@ footer ul li a{
     width: calc(33%);
     margin-top: 8px;
 }
+
+
+.food-hero {
+    padding: 100px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.food-info {
+
+}
+.food-name {
+    font-size: 50px;
+    font-weight: 800;
+}
+.review {
+    display: flex;
+    justify-content: center;
+}
+.save-print {
+    display: flex;
+    justify-content: center;
+}
+.save {
+    background-color: #c42f1f;
+    padding: 10px 20px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.print {
+    background-color: #fff;
+    border: none;
+}
+.print > img {
+    padding: 5px;
+    border: 1px solid #555;
+    color: #555;
+    background-color: white;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
