@@ -249,3 +249,7 @@ footer ul li a{
 .ingredients h3 {
     margin-bottom: 15px;
 }
+
+iframe {
+    border: none;
+}
