@@ -50,7 +50,7 @@ body {
 .front-page-text {
     font-size: 43px;
     font-weight: bolder;
-    background-color: #DDD;
+    background-color: #fff;
     display: inline-block;
     height: fit-content;
     width: fit-content;
@@ -76,12 +76,14 @@ body {
 }
 .sections-images-container {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     margin-top: 50px;
 }
 .sections-images-container > div {
     display: flex;
     flex-direction: column;
+    margin: 20px;
 
 }
 .sections-images-container p {
